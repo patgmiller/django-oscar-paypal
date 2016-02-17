@@ -200,7 +200,7 @@ def _transaction(extra_params):
                 codes.trxtype_map[trxtype], trxtype)
     pairs = gateway.post(
         url,
-        '&'.join(['{}={}'.format(n,v) for n,v in params.items()]), 
+        u'&'.join([u'{}={}'.format(n,v) for n,v in params.items()]), 
         encode=False
     )
 
