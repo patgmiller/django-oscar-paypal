@@ -20,7 +20,7 @@ setup(
     packages=find_packages(exclude=['sandbox*', 'tests*']),
     include_package_data=True,
     install_requires=[
-        'requests>=1.0',
+        'requests>=2.9.1',
         'django-localflavor'],
     extras_require={
         'oscar': ["django-oscar>=0.6"]
